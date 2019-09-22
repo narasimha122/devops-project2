@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip basedir="/var/lib/jenkins/nara/sdwsd/target" destfile="/var/lib/jenkins/nara/sdwsd/target/app.zip" includes="Dockerfile, Dockerrun.aws.json, sdwsd.jar"/>
+</target>
+</project>
